@@ -19,8 +19,8 @@ def get_english_meaning(file_path,(＾ｖ＾))
 emoticon_hash = load_library(file_path)
 english_results={}
 emoticon_hash.each do |name, japanese_emoticon|
-  english_results[japanese_emoticon]=:english
+
 end
-english_results
+
 
 end
