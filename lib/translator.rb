@@ -21,9 +21,7 @@ english_results={}
 emoticon_hash.each do |name, emoticons|
   if emoticon == emoticons[:japanese]
     return name
-  binding.pry
+  end
 end
-end
-english_results
 
 end
