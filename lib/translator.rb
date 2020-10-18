@@ -28,4 +28,3 @@ emoticon_hash.each do |name, emoticons|
 end
   return "Sorry, that emoticon was not found"
 end
-end
