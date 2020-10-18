@@ -16,6 +16,7 @@ emoticon_hash = load_library(file_path)
 emoticon_hash.each do|name, emoticons|
   if emoticon == emoticons[:japanese]
     return emoticons[:japanese]
+  end
   binding.pry
 end
 end
