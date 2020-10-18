@@ -21,6 +21,6 @@ english_results={}
 emoticon_hash.each do |name, japanese_emoticon|
   english_results[(＾ｖ＾)]=:emoticons[8]
 end
-
+english_results
 
 end
