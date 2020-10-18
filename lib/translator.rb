@@ -16,7 +16,7 @@ def get_japanese_emoticon(file_path, emoticon)
 end
 
 def get_english_meaning(file_path,emoticon)
-emoticon_hash = YAML.load_library(file_path)
+emoticon_hash = load_library(file_path)
 english_results={}
 emoticon_hash.each do |name, japanese_emoticon|
   english_results[name]=:emoticon_array[8]
