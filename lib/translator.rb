@@ -17,8 +17,9 @@ emoticon_hash.each do|name, emoticons|
   if emoticon == emoticons[:english]
     return emoticons[:japanese]
   end
-  #binding.pry
+
 end
+return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(file_path,emoticon)
