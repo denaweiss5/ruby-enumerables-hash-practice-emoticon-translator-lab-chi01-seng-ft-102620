@@ -17,7 +17,7 @@ emoticon_hash.each do|name, emoticons|
   if emoticon == emoticons[:japanese]
     return emoticons[:japanese]
   end
-  binding.pry
+  #binding.pry
 end
 end
 
