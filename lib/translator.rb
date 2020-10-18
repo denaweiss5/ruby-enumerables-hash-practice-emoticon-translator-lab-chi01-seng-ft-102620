@@ -22,6 +22,7 @@ emoticon_hash.each do |name, emoticons|
   if emoticon == emoticons[:japanese]
     return name
   end
-end
 
+end
+  return "Sorry, that emoticon was not found"
 end
